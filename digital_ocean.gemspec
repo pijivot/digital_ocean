@@ -29,9 +29,9 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'rash'
 
   gem.add_development_dependency 'rspec', '~> 2.0'
-  gem.add_development_dependency 'guard'
-  gem.add_development_dependency 'guard-rspec'
-  gem.add_development_dependency 'rb-fsevent'
+  #gem.add_development_dependency 'guard'
+  #gem.add_development_dependency 'guard-rspec'
+  #gem.add_development_dependency 'rb-fsevent'
 
   gem.add_development_dependency 'vcr',     '~> 2.4'
   gem.add_development_dependency 'fakeweb', '~> 1.3.0'

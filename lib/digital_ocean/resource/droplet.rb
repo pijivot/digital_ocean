@@ -76,8 +76,11 @@ module DigitalOcean
         @connection.post("/droplets/#{id}/disable_backups").body
       end
 
-      def delete(id)
-        @connection.delete("/droplets/#{id}/destroy").body
+      def delete(id, params = {})
+        params[:scrub_data] = 1
+        @connection.delete("/droplets/#{id}/destroy") do |query|
+          apply_params(query, params)
+        end.body
       end
     end
   end
