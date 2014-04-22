@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.digitalocean.com/regions?client_id=client_id_XXXXXXXXXXXXXXXXXXX&api_key=api_key_YYYYYYYYYYYYYYYYYYYYY
+    uri: https://api.digitalocean.com/regions?api_key=api_key_YYYYYYYYYYYYYYYYYYYYY&client_id=client_id_XXXXXXXXXXXXXXXXXXX
     body:
       encoding: US-ASCII
       string: ''
@@ -42,8 +42,8 @@ http_interactions:
       - miss
     body:
       encoding: US-ASCII
-      string: ! '{"status":"OK","regions":[{"id":1,"name":"New York 1"},{"id":2,"name":"Amsterdam
-        1"}]}'
+      string: "{\"status\":\"OK\",\"regions\":[{\"id\":1,\"name\":\"New York 1\"},{\"id\":2,\"name\":\"Amsterdam
+        1\"}]}"
     http_version: 
   recorded_at: Wed, 23 Jan 2013 14:07:31 GMT
 recorded_with: VCR 2.4.0

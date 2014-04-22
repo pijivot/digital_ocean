@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.digitalocean.com/droplets/83102?client_id=client_id_XXXXXXXXXXXXXXXXXXX&api_key=api_key_YYYYYYYYYYYYYYYYYYYYY
+    uri: https://api.digitalocean.com/droplets/83102?api_key=api_key_YYYYYYYYYYYYYYYYYYYYY&client_id=client_id_XXXXXXXXXXXXXXXXXXX
     body:
       encoding: US-ASCII
       string: ''
@@ -44,7 +44,7 @@ http_interactions:
       - miss
     body:
       encoding: US-ASCII
-      string: ! '{"status":"OK","droplet":{"id":83102,"name":"app200.ams.nl.moriz.net","image_id":25306,"size_id":63,"region_id":2,"backups_active":true,"ip_address":"185.14.185.158","status":"active"}}'
+      string: "{\"status\":\"OK\",\"droplet\":{\"id\":83102,\"name\":\"app200.ams.nl.moriz.net\",\"image_id\":25306,\"size_id\":63,\"region_id\":2,\"backups_active\":true,\"ip_address\":\"185.14.185.158\",\"status\":\"active\"}}"
     http_version: 
   recorded_at: Wed, 20 Feb 2013 11:05:15 GMT
 recorded_with: VCR 2.4.0
