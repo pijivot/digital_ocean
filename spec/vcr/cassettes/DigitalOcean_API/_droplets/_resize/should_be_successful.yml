@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.digitalocean.com/droplets/106265/resize?client_id=client_id_XXXXXXXXXXXXXXXXXXX&api_key=api_key_YYYYYYYYYYYYYYYYYYYYY&size_id=63
+    uri: https://api.digitalocean.com/droplets/106265/resize?api_key=api_key_YYYYYYYYYYYYYYYYYYYYY&client_id=client_id_XXXXXXXXXXXXXXXXXXX&size_id=63
     body:
       encoding: US-ASCII
       string: ''
@@ -44,7 +44,7 @@ http_interactions:
       - miss
     body:
       encoding: US-ASCII
-      string: ! '{"status":"OK","event_id":765550}'
+      string: "{\"status\":\"OK\",\"event_id\":765550}"
     http_version: 
   recorded_at: Wed, 20 Feb 2013 11:05:22 GMT
 recorded_with: VCR 2.4.0

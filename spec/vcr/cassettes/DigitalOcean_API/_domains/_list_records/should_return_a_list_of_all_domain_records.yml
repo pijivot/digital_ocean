@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.digitalocean.com/domains/30163/records?client_id=client_id_XXXXXXXXXXXXXXXXXXX&api_key=api_key_YYYYYYYYYYYYYYYYYYYYY
+    uri: https://api.digitalocean.com/domains/30163/records?api_key=api_key_YYYYYYYYYYYYYYYYYYYYY&client_id=client_id_XXXXXXXXXXXXXXXXXXX
     body:
       encoding: US-ASCII
       string: ''
@@ -40,7 +40,7 @@ http_interactions:
       - miss
     body:
       encoding: US-ASCII
-      string: ! '{"status":"OK","records":[{"id":206982,"domain_id":30163,"record_type":"A","name":"@","data":"192.81.213.70","priority":null,"port":null,"weight":null},{"id":206983,"domain_id":30163,"record_type":"NS","name":null,"data":"NS1.DIGITALOCEAN.COM.","priority":null,"port":null,"weight":null},{"id":206984,"domain_id":30163,"record_type":"NS","name":null,"data":"NS2.DIGITALOCEAN.COM.","priority":null,"port":null,"weight":null},{"id":206985,"domain_id":30163,"record_type":"NS","name":null,"data":"NS3.DIGITALOCEAN.COM.","priority":null,"port":null,"weight":null}]}'
+      string: "{\"status\":\"OK\",\"records\":[{\"id\":206982,\"domain_id\":30163,\"record_type\":\"A\",\"name\":\"@\",\"data\":\"192.81.213.70\",\"priority\":null,\"port\":null,\"weight\":null},{\"id\":206983,\"domain_id\":30163,\"record_type\":\"NS\",\"name\":null,\"data\":\"NS1.DIGITALOCEAN.COM.\",\"priority\":null,\"port\":null,\"weight\":null},{\"id\":206984,\"domain_id\":30163,\"record_type\":\"NS\",\"name\":null,\"data\":\"NS2.DIGITALOCEAN.COM.\",\"priority\":null,\"port\":null,\"weight\":null},{\"id\":206985,\"domain_id\":30163,\"record_type\":\"NS\",\"name\":null,\"data\":\"NS3.DIGITALOCEAN.COM.\",\"priority\":null,\"port\":null,\"weight\":null}]}"
     http_version: 
   recorded_at: Sun, 09 Jun 2013 15:26:20 GMT
 recorded_with: VCR 2.5.0

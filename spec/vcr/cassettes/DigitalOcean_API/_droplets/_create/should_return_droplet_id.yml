@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.digitalocean.com/droplets/new?client_id=client_id_XXXXXXXXXXXXXXXXXXX&api_key=api_key_YYYYYYYYYYYYYYYYYYYYY&name=t1&size_id=66&image_id=25306&region_id=2
+    uri: https://api.digitalocean.com/droplets/new?api_key=api_key_YYYYYYYYYYYYYYYYYYYYY&client_id=client_id_XXXXXXXXXXXXXXXXXXX&image_id=25306&name=t1&region_id=2&size_id=66
     body:
       encoding: US-ASCII
       string: ''
@@ -44,7 +44,7 @@ http_interactions:
       - miss
     body:
       encoding: US-ASCII
-      string: ! '{"status":"OK","droplet":{"id":106268,"name":"t1","image_id":25306,"size_id":66,"event_id":765543}}'
+      string: "{\"status\":\"OK\",\"droplet\":{\"id\":106268,\"name\":\"t1\",\"image_id\":25306,\"size_id\":66,\"event_id\":765543}}"
     http_version: 
   recorded_at: Wed, 20 Feb 2013 11:05:17 GMT
 recorded_with: VCR 2.4.0

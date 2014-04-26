@@ -14,7 +14,7 @@ describe DigitalOcean::API, :vcr do
 
   describe 'ssl settings' do
     it 'should by default enforce ssl' do
-      subject.default_faraday.ssl.should == { :verify => true }
+      expect(subject.default_faraday.ssl.verify).to be true
     end
   end
 

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: put
-    uri: https://api.digitalocean.com/droplets/106265/shutdown?client_id=client_id_XXXXXXXXXXXXXXXXXXX&api_key=api_key_YYYYYYYYYYYYYYYYYYYYY
+    uri: https://api.digitalocean.com/droplets/106265/shutdown?api_key=api_key_YYYYYYYYYYYYYYYYYYYYY&client_id=client_id_XXXXXXXXXXXXXXXXXXX
     body:
       encoding: US-ASCII
       string: ''
@@ -44,7 +44,7 @@ http_interactions:
       - invalidate, pass
     body:
       encoding: US-ASCII
-      string: ! '{"status":"OK","event_id":765546}'
+      string: "{\"status\":\"OK\",\"event_id\":765546}"
     http_version: 
   recorded_at: Wed, 20 Feb 2013 11:05:20 GMT
 recorded_with: VCR 2.4.0
