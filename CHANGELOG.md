@@ -1,11 +1,20 @@
 ## unreleased
 
-* [Full Changelog](https://github.com/rmoriz/digital_ocean/compare/v1.3.0...master)
+* [Full Changelog](https://github.com/rmoriz/digital_ocean/compare/v1.4.0...master)
+
+
+## 1.4.0 / 2014-04-26
+
+* upgrade Faraday (contributed by github user mrloop)
+
+* [Full Changelog](https://github.com/rmoriz/digital_ocean/compare/v1.3.0...v1.4.0)
 
 
 ## 1.3.0 / 2013-12-30
 
 * on droplet delete use ```scrub_data``` by default
+
+* [Full Changelog](https://github.com/rmoriz/digital_ocean/compare/v1.2.0...v1.3.0)
 
 
 ## 1.2.0 / 2013-09-07
