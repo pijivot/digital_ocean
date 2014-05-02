@@ -70,7 +70,7 @@ module DigitalOcean
         faraday.use AuthenticationMiddleware, @client_id, @api_key
         faraday.use Faraday::Response::RaiseError if @raise_status_errors
         faraday.request  :url_encoded
-        faraday.response :rashify
+        faraday.response :mashify
         faraday.response :json
         faraday.response(:logger) if @debug
         faraday.adapter @faraday_adapter
