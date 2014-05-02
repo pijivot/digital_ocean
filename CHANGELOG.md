@@ -1,6 +1,14 @@
 ## unreleased
 
-* [Full Changelog](https://github.com/rmoriz/digital_ocean/compare/v1.4.0...master)
+* [Full Changelog](https://github.com/rmoriz/digital_ocean/compare/v1.5.0...master)
+
+
+## 1.5.0 / 2014-05-02
+
+* removed "rash" gem dependency as it uses an old "hashie" gem version itself and
+  that will break current ChefDK releases.
+
+* [Full Changelog](https://github.com/rmoriz/digital_ocean/compare/v1.4.0...v1.5.0)
 
 
 ## 1.4.0 / 2014-04-26
