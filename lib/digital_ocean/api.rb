@@ -62,7 +62,7 @@ module DigitalOcean
     end
 
     def domains
-        DigitalOcean::Resource::Domain.new(@faraday)
+      DigitalOcean::Resource::Domain.new(@faraday)
     end
 
     def default_faraday
